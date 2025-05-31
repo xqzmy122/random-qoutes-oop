@@ -25,12 +25,15 @@ li {
 }
 
 .quote-conteiner { 
-  max-width: 700px;
-  margin: 50px auto;
+  max-width: 1200px;
+  margin: 100px auto;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
+  font-size: 2em;
+  height: 600px;
 }
 
 .generate-quote {
@@ -39,10 +42,10 @@ li {
   background-color: #375534;
   padding: 10px 15px;
   color: aliceblue;
-  font-size: 1.2em;
+  font-size: 2em;
   margin-bottom: 5px;
   transition: 0.2s;
-  margin: 50px 0px;
+  margin: 100px 0px;
 }
 
 .add-to-favorites {
